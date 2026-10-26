@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.cepmiz.monthlydata'; compileSdk 34
+    defaultConfig { applicationId 'com.cepmiz.monthlydata'; minSdk 23; targetSdk 34; versionCode 1; versionName '1.0' }
+}
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(17) } }
